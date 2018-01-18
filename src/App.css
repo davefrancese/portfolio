@@ -1,0 +1,162 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+  /*
+
+  OFF-BLACK: #222;
+  OFF-WHITE: #F2EFE7;
+  GREY: #525252;
+  BLUE: #9498FF;
+  RED: #FF7F90;
+
+  */
+
+body {
+  background: #F2EFE7;
+}
+
+main {
+  margin: 0px 40px 0px 40px;
+  display: flex;
+}
+
+header {
+  padding: 5px;
+}
+
+.slash {
+  letter-spacing: 20px;
+  color: #ff7f90;
+}
+
+.App-header {
+  height: 75px;
+  padding: 20px;
+  color: #222;
+}
+
+.App-social p {
+  font-size: 12px;
+}
+
+h1, h4 {
+  letter-spacing: 20px;
+}
+
+h3 {
+  letter-spacing: 20px;
+  color: #000;
+}
+
+.App-sub {
+  color: #525252;
+  margin-top: -20px;
+  letter-spacing: 5px;
+}
+
+.App-social {
+  float: right;
+  margin-right: 40px;
+}
+
+.icon {
+  padding-right: 10px;
+}
+
+a {
+  color: #FF7F90;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9498FF;
+}
+
+main {
+  display: grid;
+}
+
+.Bio {
+  color: #222;
+  letter-spacing: 5px;
+  margin-top: 50px;
+  line-height: 40px;
+}
+
+.projects {
+  margin-top: 100px;
+}
+
+.project-header {
+  margin-top: 100px;
+}
+
+.project-container {
+  margin-top: 50px;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+}
+
+.project-container > div > a > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pro-card {
+  background: #E0DED6;
+  border-radius: 5px;
+  padding: 10px;
+  object-fit: cover;
+}
+
+.pro-card:hover {
+  background: #9498FF; 
+}
+
+.pro-title a {
+  color: #FF7F90;
+}
+
+.pro-title a:hover {
+  color: #9498FF;
+}
+
+.Contact {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.contact-content {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.contact-title {
+  line-height: 30px;
+}
+
+.Contact a {
+  color: #FF7F90;
+}
+
+.Contact a:hover {
+  color: #9498FF;
+}
+
+
+
+
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
